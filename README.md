@@ -1,19 +1,14 @@
 <div align="center">
-  <!-- Dynamic Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Kavin%20B%20M&fontSize=42&desc=Applied%20AI%20Engineer%20-%20Robotics%20AI%20Infra%20and%20MCP%20Architect&descSize=18" width="100%" />
-  
+  <!-- Dynamic Title Header Banner -->
+  <a href="https://github.com/Kavin-bm">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&height=70&lines=Kavin+B+M;Applied+AI+Engineer+%7C+Robotics+AI+Infra;gRPC-MCP+Server+Architect" alt="Header Banner" />
+  </a>
   <br/>
   <!-- Profile Visitor Counter -->
   <img src="https://komarev.com/ghpvc/?username=Kavin-bm&style=flat-square&color=00f0ff&label=PROFILE+VIEWS" alt="Profile Views"/>
 </div>
 
-<div align="center">
-  <h3>
-    <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=Applied+AI+Engineer+@+Machani+Robotics;Building+gRPC-MCP+Server+Architectures;Real-Time+Speech-to-Speech+AI+Pipelines;Local-First+LLM+Observability+%7C+Go+%7C+Python">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=Applied+AI+Engineer+@+Machani+Robotics;Building+gRPC-MCP+Server+Architectures;Real-Time+Speech-to-Speech+AI+Pipelines;Local-First+LLM+Observability+%7C+Go+%7C+Python" alt="Typing Banner" />
-    </a>
-  </h3>
-</div>
+<br/>
 
 ```bash
 ┌──(kavin⚡system)-[~/github/Kavin-bm]
