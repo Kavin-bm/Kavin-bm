@@ -23,6 +23,51 @@ I work at the intersection of **LLMs** and **real-world systems** — designing 
 
 ---
 
+### How It All Connects
+
+> _This is the system I'm building — every project is a node in a larger AI infrastructure._
+
+```mermaid
+graph LR
+    subgraph " "
+        direction LR
+
+        USER["🧑‍💻 User / Agent"]
+        ROUTER["🔀 MCP Dynamic Router"]
+        SPOTIFY["🎵 Spotify MCP"]
+        GHOST["👻 ghostint"]
+        BURN["📊 Burnmeter"]
+
+        USER -- "natural language" --> ROUTER
+        ROUTER -- "BM25 + semantic\nreranking" --> SPOTIFY
+        ROUTER -- "tool dispatch" --> GHOST
+        ROUTER -. "all LLM calls" .-> BURN
+
+        SPOTIFY -- "gRPC + Protobuf" --> ROUTER
+        GHOST -- "identity graph" --> USER
+        BURN -. "cost telemetry" .-> USER
+    end
+
+    style USER fill:#1a1b27,stroke:#7aa2f7,color:#c0caf5
+    style ROUTER fill:#1a1b27,stroke:#bb9af7,color:#c0caf5
+    style SPOTIFY fill:#1a1b27,stroke:#1db954,color:#c0caf5
+    style GHOST fill:#1a1b27,stroke:#f7768e,color:#c0caf5
+    style BURN fill:#1a1b27,stroke:#e0af68,color:#c0caf5
+```
+
+<details>
+<summary><b>🔍 What's happening here?</b></summary>
+<br/>
+
+The **MCP Dynamic Router** is the brain — it receives natural language requests and uses a 2-stage ranking pipeline (BM25 lexical matching → semantic embeddings → LLM reranking) to route them to the right tool server.
+
+**Spotify MCP** and **ghostint** are tool servers that speak gRPC + MCP protocol back to the router. **Burnmeter** silently observes every LLM call across the system and tracks token usage & cost in real-time.
+
+The goal: a modular, observable AI infrastructure where adding a new capability is just deploying another MCP server.
+</details>
+
+---
+
 ### Tech
 
 <p>
