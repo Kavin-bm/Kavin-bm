@@ -23,51 +23,6 @@ I work at the intersection of **LLMs** and **real-world systems** — designing 
 
 ---
 
-### How It All Connects
-
-> _This is the system I'm building — every project is a node in a larger AI infrastructure._
-
-```mermaid
-graph LR
-    subgraph " "
-        direction LR
-
-        USER["🧑‍💻 User / Agent"]
-        ROUTER["🔀 MCP Dynamic Router"]
-        SPOTIFY["🎵 Spotify MCP"]
-        GHOST["👻 ghostint"]
-        BURN["📊 Burnmeter"]
-
-        USER -- "natural language" --> ROUTER
-        ROUTER -- "BM25 + semantic\nreranking" --> SPOTIFY
-        ROUTER -- "tool dispatch" --> GHOST
-        ROUTER -. "all LLM calls" .-> BURN
-
-        SPOTIFY -- "gRPC + Protobuf" --> ROUTER
-        GHOST -- "identity graph" --> USER
-        BURN -. "cost telemetry" .-> USER
-    end
-
-    style USER fill:#1a1b27,stroke:#7aa2f7,color:#c0caf5
-    style ROUTER fill:#1a1b27,stroke:#bb9af7,color:#c0caf5
-    style SPOTIFY fill:#1a1b27,stroke:#1db954,color:#c0caf5
-    style GHOST fill:#1a1b27,stroke:#f7768e,color:#c0caf5
-    style BURN fill:#1a1b27,stroke:#e0af68,color:#c0caf5
-```
-
-<details>
-<summary><b>🔍 What's happening here?</b></summary>
-<br/>
-
-The **MCP Dynamic Router** is the brain — it receives natural language requests and uses a 2-stage ranking pipeline (BM25 lexical matching → semantic embeddings → LLM reranking) to route them to the right tool server.
-
-**Spotify MCP** and **ghostint** are tool servers that speak gRPC + MCP protocol back to the router. **Burnmeter** silently observes every LLM call across the system and tracks token usage & cost in real-time.
-
-The goal: a modular, observable AI infrastructure where adding a new capability is just deploying another MCP server.
-</details>
-
----
-
 ### Tech
 
 <p>
@@ -87,6 +42,46 @@ The goal: a modular, observable AI infrastructure where adding a new capability 
 
 **Core:** LLMs · RAG · Agentic Workflows · Vector DBs · Model Evaluation · Prompt Engineering  
 **Infra:** gRPC · Protobuf · MCP · GraphQL · NATS · OpenTelemetry · PostgreSQL
+
+---
+
+<details>
+<summary>📦 <code>kavin.Dockerfile</code></summary>
+<br/>
+
+```dockerfile
+FROM ubuntu:latest AS kavin
+
+LABEL maintainer="kavinbm16@gmail.com"
+LABEL version="2026.08"
+LABEL description="Applied AI Engineer — ships infra, not just notebooks"
+
+ENV LOCATION="Bangalore, India"
+ENV FUEL="black coffee, no sugar, infinite refills"
+ENV EDITOR="vscode + vim motions"
+ENV DEBUGGER="printf and prayer"
+
+# Install core runtime
+RUN apt-get update && apt-get install -y \
+    golang python3 grpc protobuf-compiler \
+    curiosity stubbornness patience \
+    && rm -rf /var/lib/apt/lists/*
+
+# Things I mass-uninstalled
+RUN apt-get purge -y \
+    impostor-syndrome \
+    "it-works-on-my-machine" \
+    sleep
+
+WORKDIR /home/kavin
+
+EXPOSE 50051 8080
+HEALTHCHECK CMD curl -f http://localhost/coffee-level || exit 1
+
+CMD ["make", "impact"]
+```
+
+</details>
 
 ---
 
