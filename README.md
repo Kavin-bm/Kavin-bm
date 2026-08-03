@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Dynamic Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,30,50&height=220&section=header&text=Kavin%20B%20M&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Applied%20AI%20Engineer%20%7C%20Robotics%20AI%20Infra%20%26%20MCP%20Architect&descSize=17&descAlign=50&descAlignY=70" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Kavin%20B%20M&fontSize=42&desc=Applied%20AI%20Engineer%20-%20Robotics%20AI%20Infra%20and%20MCP%20Architect&descSize=18" width="100%" />
   
   <br/>
   <!-- Profile Visitor Counter -->
@@ -116,8 +116,3 @@ Applied AI Engineer focused on building reliable AI systems that bridge LLM mode
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-
-<hr/>
-<div align="center">
-  <sub>⚡ Powered by <b>GitHub Profile Architect</b></sub>
-</div>
