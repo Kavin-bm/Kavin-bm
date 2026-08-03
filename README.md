@@ -1,113 +1,52 @@
-<div align="center">
-  <!-- Dynamic Title Header Banner -->
-  <a href="https://github.com/Kavin-bm">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&height=70&lines=Kavin+B+M;Applied+AI+Engineer+%7C+Robotics+AI+Infra;gRPC-MCP+Server+Architect" alt="Header Banner" />
-  </a>
-  <br/>
-  <!-- Profile Visitor Counter -->
-  <img src="https://komarev.com/ghpvc/?username=Kavin-bm&style=flat-square&color=00f0ff&label=PROFILE+VIEWS" alt="Profile Views"/>
-</div>
+# Hi, I'm Kavin 👋
 
-<br/>
+**Applied AI Engineer** at [Machani Robotics](https://machani.tech) · Building production AI infrastructure for robotics
 
-```bash
-┌──(kavin⚡system)-[~/github/Kavin-bm]
-└─$ cat system_specs.json
-{
-  "operator": "Kavin B M",
-  "primary_role": "Applied AI Engineer @ Machani Robotics",
-  "education": "B.E. Computer Science Engineering — CEG, Anna University (CGPA 8.0/10)",
-  "location": "Bangalore / Chennai, India 📍",
-  "active_protocol": "Robotics AI Infra & Hybrid gRPC-MCP Server Architectures",
-  "compiling": "Stream RAG, Real-Time Speech Pipelines & OpenTelemetry",
-  "system_status": "ONLINE // READY_TO_COLLABORATE"
-}
+I work at the intersection of **LLMs** and **real-world systems** — designing gRPC-MCP server architectures, real-time speech pipelines, and local-first observability tools.
+
+```
+📍 Bangalore / Chennai, India
+🎓 B.E. Computer Science — College of Engineering, Guindy (Anna University)
+⚡ Currently: Production AI Infra for Robotics & Stream RAG Routing
 ```
 
-### ⚡ About Me
+---
 
-Applied AI Engineer focused on building reliable AI systems that bridge LLM models and real-world applications. Strong foundation in machine learning fundamentals, backend engineering, retrieval systems, AI orchestration, and production deployments in robotics environments.
+### What I Build
 
-- 💼 **Current Role**: AI Engineer at **Machani Robotics** (Building production AI infrastructure & gRPC-MCP servers)
-- 🎓 **Education**: B.E. Computer Science — **College of Engineering, Guindy (Anna University)**
-- 🤖 **AI Core**: Large Language Models (LLMs), RAG, Agentic Workflows, Model Evaluation, Vector DBs
-- ⚙️ **Backend Infra**: Go, Python, gRPC, Protobuf, Model Context Protocol (MCP), GraphQL, OpenTelemetry, Redis, NATS, Docker
-- ⚡ **Fun Fact**: Translating complex models into zero-latency production systems 🚀
+| | Project | What it does |
+|---|---|---|
+| 🔀 | **[MCP Dynamic Router](https://github.com/Kavin-bm/Mcp-Dynamic-Router)** | High-performance tool router for Model Context Protocol — BM25 + semantic embeddings + LLM reranking with Stream RAG for partial speech transcripts |
+| 📊 | **[Burnmeter](https://github.com/Kavin-bm/Burnmeter)** | Local-first LLM token usage & cost observability dashboard — tracks spend across OpenAI, Gemini, and other providers |
+| 🎵 | **[Spotify MCP Server](https://github.com/Kavin-bm/Spotify-MCP)** | Hybrid gRPC + MCP server exposing Spotify as AI-native tools for LLM agents |
+| 👻 | **[ghostint](https://github.com/Kavin-bm/ghostint)** | AI-powered OSINT framework that traces digital footprints & maps identity graphs |
 
 ---
 
-### 📌 Featured Systems & Open-Source Projects
+### Tech
 
-| System / Project | Tech Stack | Key Innovations & Highlights |
-| :--- | :--- | :--- |
-| 🚀 **[MCP Dynamic Router](https://github.com/Kavin-bm)** | `Go`, `MCP`, `BM25`, `Ollama`, `RAG` | High-performance Model Context Protocol router featuring 2-stage BM25 + semantic embeddings + LLM reranking. Includes **Stream RAG** for partial speech transcripts & dynamic schema hot-reloading. |
-| 📊 **[Burnmeter](https://github.com/Kavin-bm)** | `Python`, `OpenAI API`, `Gemini` | Local-first, privacy-preserving LLM token usage and spend observability dashboard with provider & model-wise cost analytics. |
-| 🎵 **[Spotify gRPC-MCP Server](https://github.com/Kavin-bm)** | `Go`, `gRPC`, `MCP`, `Protobuf` | Hybrid gRPC and Model Context Protocol server exposing Spotify functionality as AI-native tools for LLM agent interaction. |
-| 📈 **[Pulse Observability Framework](https://github.com/Kavin-bm)** | `Go`, `OpenTelemetry` | Production-grade observability framework contributions providing unified telemetry, structured logging, tracing & metrics pipelines. |
-
----
-
-### 🛠️ Tech Stack & Cyber Armor
-
-<p align="left">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <!-- AI Systems -->
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <!-- Backend & Infra -->
-  <img src="https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white" />
-  <img src="https://img.shields.io/badge/Protocol_Buffers-00599C?style=for-the-badge&logo=protobuf&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<p>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=grpc&logoColor=white" />
+  <img src="https://img.shields.io/badge/Protobuf-00599C?style=flat-square" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-7B61FF?style=flat-square&logo=opentelemetry&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 </p>
 
----
-
-### 📊 Neural Metrics & Commit Telemetry
-
-<div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Kavin-bm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Kavin-bm&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
-  <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kavin-bm&theme=tokyonight&hide_border=true" height="175" alt="Streak Stats" />
-</div>
+**Core:** LLMs · RAG · Agentic Workflows · Vector DBs · Model Evaluation · Prompt Engineering  
+**Infra:** gRPC · Protobuf · MCP · GraphQL · NATS · OpenTelemetry · PostgreSQL
 
 ---
 
-### 🐍 Contribution Matrix (Snake Grid Animation)
+### 📬 Connect
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
----
-
-### 🏆 Achievements & Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kavin-bm&theme=onedark&column=6&margin-w=15&margin-h=15&no-bg=true" alt="Trophies" />
-</div>
-
----
-
-### 📬 Transmission Links & Connect
-
-<p align="center">
-  <a href="https://linkedin.com/in/kavinbm" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/Kavin-bm" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:kavinbm16@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kavinbm)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kavin-bm)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kavinbm16@gmail.com)
