@@ -75,8 +75,8 @@ Applied AI Engineer focused on building reliable AI systems that bridge LLM mode
 ### 📊 Neural Metrics & Commit Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kavin-bm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kavin-bm&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Kavin-bm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Kavin-bm&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
   <br/><br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kavin-bm&theme=tokyonight&hide_border=true" height="175" alt="Streak Stats" />
 </div>
