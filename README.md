@@ -45,43 +45,11 @@ I work at the intersection of **LLMs** and **real-world systems** — designing 
 
 ---
 
-<details>
-<summary>📦 <code>kavin.Dockerfile</code></summary>
-<br/>
-
-```dockerfile
-FROM ubuntu:latest AS kavin
-
-LABEL maintainer="kavinbm16@gmail.com"
-LABEL version="2026.08"
-LABEL description="Applied AI Engineer — ships infra, not just notebooks"
-
-ENV LOCATION="Bangalore, India"
-ENV FUEL="black coffee, no sugar, infinite refills"
-ENV EDITOR="vscode + vim motions"
-ENV DEBUGGER="printf and prayer"
-
-# Install core runtime
-RUN apt-get update && apt-get install -y \
-    golang python3 grpc protobuf-compiler \
-    curiosity stubbornness patience \
-    && rm -rf /var/lib/apt/lists/*
-
-# Things I mass-uninstalled
-RUN apt-get purge -y \
-    impostor-syndrome \
-    "it-works-on-my-machine" \
-    sleep
-
-WORKDIR /home/kavin
-
-EXPOSE 50051 8080
-HEALTHCHECK CMD curl -f http://localhost/coffee-level || exit 1
-
-CMD ["make", "impact"]
-```
-
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/snake.svg" />
+  <img alt="contribution graph animation" src="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/snake.svg" />
+</picture>
 
 ---
 
