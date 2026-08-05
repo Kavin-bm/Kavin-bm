@@ -28,8 +28,8 @@ I work at the intersection of **LLMs** and **real-world systems** — designing 
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 </p>
 
-**Core:** LLMs · RAG · Agentic Workflows · Vector DBs · Model Evaluation · Prompt Engineering  
-**Infra:** gRPC · Protobuf · MCP · GraphQL · NATS · OpenTelemetry · PostgreSQL
+**Core:** LLMs · RAG · Agentic Workflows · Vector DBs · Model Evaluation · 
+**Infra:** gRPC · Protobuf · MCP · GraphQL · NATS · OpenTelemetry · PostgreSQL · Redis
 
 ---
 
