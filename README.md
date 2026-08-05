@@ -10,18 +10,6 @@ I work at the intersection of **LLMs** and **real-world systems** — designing 
 ⚡ Currently: Production AI Infra for Robotics & Stream RAG Routing
 ```
 
----
-
-### What I Build
-
-| | Project | What it does |
-|---|---|---|
-| 🔀 | **[MCP Dynamic Router](https://github.com/Kavin-bm/Mcp-Dynamic-Router)** | High-performance tool router for Model Context Protocol — BM25 + semantic embeddings + LLM reranking with Stream RAG for partial speech transcripts |
-| 📊 | **[Burnmeter](https://github.com/Kavin-bm/Burnmeter)** | Local-first LLM token usage & cost observability dashboard — tracks spend across OpenAI, Gemini, and other providers |
-| 🎵 | **[Spotify MCP Server](https://github.com/Kavin-bm/Spotify-MCP)** | Hybrid gRPC + MCP server exposing Spotify as AI-native tools for LLM agents |
-| 👻 | **[ghostint](https://github.com/Kavin-bm/ghostint)** | AI-powered OSINT framework that traces digital footprints & maps identity graphs |
-
----
 
 ### Tech
 
