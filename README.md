@@ -29,6 +29,7 @@ I work at the intersection of **LLMs** and **real-world systems** — designing 
 </p>
 
 **Core:** LLMs · RAG · Agentic Workflows · Vector DBs · Model Evaluation
+
 **Infra:** gRPC · Protobuf · MCP · GraphQL · NATS · OpenTelemetry · PostgreSQL · Redis
 
 ---
