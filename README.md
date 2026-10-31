@@ -1,49 +1,32 @@
-# Hi, I'm Kavin 👋
+# Kavin B M
 
-**Applied AI Engineer** at [Machani Robotics](https://machani.tech) · Building production AI infrastructure for robotics
+AI Engineer at [Machani Robotics](https://machanirobotics.com) in Bangalore since January 2026. Previously AI Developer at Brixbit Technologies, Chennai. B.E. Computer Science and Engineering, College of Engineering, Guindy (Anna University), 2025.
 
-I work at the intersection of **LLMs** and **real-world systems** — designing gRPC-MCP server architectures, real-time speech pipelines, and local-first observability tools.
+I work in Go and Python on LLMs, RAG, MCP, gRPC, voice AI, and OpenTelemetry.
 
-```
-📍 Bangalore / Chennai, India
-🎓 B.E. Computer Science — College of Engineering, Guindy (Anna University)
-⚡ Currently: Production AI Infra for Robotics & Stream RAG Routing
-```
+## Featured projects
 
+- **[Mcp-Dynamic-Router](https://github.com/Kavin-bm/Mcp-Dynamic-Router)** — Go gateway that shortlists MCP tools with BM25 and vector ranking, and can route from partial speech transcripts.
+- **[resumeshield](https://github.com/Kavin-bm/resumeshield)** — Finds prompt-injection payloads hidden in resume PDFs, across five independent detection layers.
+- **[voice-agent-platform](https://github.com/Kavin-bm/voice-agent-platform)** — Self-hosted control plane for multi-tenant voice agents, compiled into workflows for the Dograh runtime.
+- **[Burnrate](https://github.com/Kavin-bm/Burnrate)** — Measures Gemini Live speech-to-speech cost from live mic sessions and scenario replays.
+- **[Burnmeter](https://github.com/Kavin-bm/Burnmeter)** — Local-first dashboard for OpenAI and Gemini token usage and spend.
+- **[Spotify-MCP](https://github.com/Kavin-bm/Spotify-MCP)** — Go MCP server for searching Spotify and controlling playback, playlists, and devices.
 
-### Tech
+## Skills
 
-<p>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=grpc&logoColor=white" />
-  <img src="https://img.shields.io/badge/Protobuf-00599C?style=flat-square" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-7B61FF?style=flat-square&logo=opentelemetry&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-</p>
+**Languages:** Go, Python, TypeScript
 
-**Core:** LLMs · RAG · Agentic Workflows · Vector DBs · Model Evaluation
+**Focus:** LLMs, RAG, MCP, gRPC, voice AI, OpenTelemetry
 
-**Infra:** gRPC · Protobuf · MCP · GraphQL · NATS · OpenTelemetry · PostgreSQL · Redis
+**Also:** FastAPI, Next.js, Svelte, PostgreSQL, Docker
 
----
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/b-m-kavin-9959b1259) · [kavinbm16@gmail.com](mailto:kavinbm16@gmail.com)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/snake.svg" />
   <img alt="contribution graph animation" src="https://raw.githubusercontent.com/Kavin-bm/Kavin-bm/output/snake.svg" />
 </picture>
-
----
-
-### 📬 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kavinbm)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kavin-bm)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kavinbm16@gmail.com)
